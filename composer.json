@@ -1,5 +1,5 @@
 {
-    "name":        "arcanedev/log-viewer",
+    "name":        "aliakel/log-viewer",
     "description": "Provides a Log Viewer for Laravel",
     "keywords":    ["arcanedev", "arcanesoft", "laravel", "log", "log viewer", "log-viewer", "logviewer"],
     "homepage":    "https://github.com/ARCANEDEV/LogViewer",
@@ -55,6 +55,12 @@
     "config": {
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/aliakel/log-viewer-support.git"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
